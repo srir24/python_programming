@@ -1,0 +1,16 @@
+tup1=(2,5,'G',"e")
+tup2=(8,"O")
+print("The elements in tuple 1 are: ",tup1) 
+print("The elements in tuple 2 are: ",tup2) 
+c=len(tup1)
+print("The length of tuple 1 is : ",c) 
+a=tup1+tup2
+print("The tuple concatenation of tuple 1 and tuple 2 is : ",a)
+d=3*tup1
+print("The repetition of elements in tuple 1 are : ",d) 
+print("The elements in tuple 1 are: ",tup1) 
+print("The slicing operations of tuple 1 are: ") 
+print(tup1[0])
+print(tup1[-1])
+print(tup1[:2])
+print(tup1[2:])
